@@ -52,7 +52,7 @@ document.getElementById("inputSearch").addEventListener("keyup", buscador_intern
 function buscador_interno(){
 
     filter = inputSearch.value.toUpperCase();
-    li = box_search
+    li = box_search.getElementsByTagName("li");
 
     //Recorriendo elementos a filtrar mediante los "li"
     for (i = 0; i < li.length; i++){
