@@ -199,6 +199,7 @@ span {
 
 .card__title {
     padding: 20px;
+    color: #191c32;
 }
 
 .card__proyect-links {
@@ -282,8 +283,10 @@ span {
     margin-top: 1em;
 }
   
-.sotial-networks i {
-    font-size: 1.5em;
+.sotial-networks a {
+    font-size: 2em;
+    text-decoration: none;
+    color: #191c32;
 }
   
 
